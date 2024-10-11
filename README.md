@@ -1,0 +1,3 @@
+# ECHO: Emotion Classification from Hybrid Operations
+
+ECHO (Emotion Classification from Hybrid Operations) is an advanced deep learning project designed to classify emotions in speech. Built from scratch using TensorFlow and Keras, this model combines Convolutional Neural Networks (CNNs) for feature extraction with Long Short-Term Memory (LSTM) networks for temporal analysis, enabling accurate and real-time emotion recognition. The project emphasizes a hands-on approach, showcasing the development of a robust model without relying on pre-trained architectures, making it a valuable resource for understanding emotion recognition in machine learning.
