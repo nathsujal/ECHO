@@ -1,3 +1,27 @@
 # ECHO: Emotion Classification from Hybrid Operations
 
-ECHO (Emotion Classification from Hybrid Operations) is an advanced deep learning project designed to classify emotions in speech. Built from scratch using TensorFlow and Keras, this model combines Convolutional Neural Networks (CNNs) for feature extraction with Long Short-Term Memory (LSTM) networks for temporal analysis, enabling accurate and real-time emotion recognition. The project emphasizes a hands-on approach, showcasing the development of a robust model without relying on pre-trained architectures, making it a valuable resource for understanding emotion recognition in machine learning.
+ECHO (Emotion Classification from Hybrid Operations) is a robust deep learning project aimed at classifying emotions in speech. This project showcases the development of multiple models, each leveraging unique architectures and methodologies to achieve high accuracy in emotion detection.
+
+## Overview
+
+The primary objective of ECHO is to analyze speech data and classify emotions into predefined categories. By employing different neural network architectures, the project illustrates the effectiveness of combining various models to enhance performance.
+
+## Models Developed
+
+### 1. Convolutional Neural Network (CNN)
+
+The CNN model focuses on feature extraction from the audio spectrograms. It effectively identifies spatial hierarchies in the data, leading to improved classification accuracy.
+
+![CNN Architecture](/home/sujalnath/dev/projects/VIBE: Voice-based Identification of Emotional States/model-architecture-visuals/cnn-architecture.svg)
+
+### 2. Long Short-Term Memory (LSTM) Network
+
+The LSTM model is designed to capture temporal dependencies in the speech data. It is particularly effective for sequences, making it well-suited for emotion detection in audio.
+
+![LSTM Architecture](/home/sujalnath/dev/projects/VIBE: Voice-based Identification of Emotional States/model-architecture-visuals/lstm-architecture.svg)
+
+### 3. Hybrid Model
+
+The hybrid model combines both CNN and LSTM architectures, leveraging the strengths of each to provide superior emotion classification. This approach enhances the model's ability to process complex patterns in speech data.
+
+![Hybrid Model Architecture](/home/sujalnath/dev/projects/VIBE: Voice-based Identification of Emotional States/model-architecture-visuals/cnn-lstm-architecture.svg)
