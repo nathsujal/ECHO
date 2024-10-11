@@ -12,16 +12,16 @@ The primary objective of ECHO is to analyze speech data and classify emotions in
 
 The CNN model focuses on feature extraction from the audio spectrograms. It effectively identifies spatial hierarchies in the data, leading to improved classification accuracy.
 
-![CNN Architecture](/home/sujalnath/dev/projects/VIBE: Voice-based Identification of Emotional States/model-architecture-visuals/cnn-architecture.svg)
+![CNN Architecture](https://github.com/nathsujal/ECHO/blob/main/model-architecture-visuals/cnn-architecture.svg)
 
 ### 2. Long Short-Term Memory (LSTM) Network
 
 The LSTM model is designed to capture temporal dependencies in the speech data. It is particularly effective for sequences, making it well-suited for emotion detection in audio.
 
-![LSTM Architecture](/home/sujalnath/dev/projects/VIBE: Voice-based Identification of Emotional States/model-architecture-visuals/lstm-architecture.svg)
+![LSTM Architecture](https://github.com/nathsujal/ECHO/blob/main/model-architecture-visuals/lstm-architecture.svg)
 
 ### 3. Hybrid Model
 
 The hybrid model combines both CNN and LSTM architectures, leveraging the strengths of each to provide superior emotion classification. This approach enhances the model's ability to process complex patterns in speech data.
 
-![Hybrid Model Architecture](/home/sujalnath/dev/projects/VIBE: Voice-based Identification of Emotional States/model-architecture-visuals/cnn-lstm-architecture.svg)
+![Hybrid Model Architecture](https://github.com/nathsujal/ECHO/blob/main/model-architecture-visuals/cnn-lstm-architecture.svg)
